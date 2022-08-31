@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CH Suite">
+    <test name="Menu">
+        <classes>
+            <class name="pageObject.componentes.Header"/>
+                    <class name="pageObject.componentes.Header"></class>
+            
+        </classes>
+    </test>
+
+
+    <test name="Cookies">
+        <classes>
+            <class name="pageObject.componentes.Cookies"/>
+
+
+        </classes>
+    </test>
+    <!-- Test -->
+
+<!--    <test name="Incognito">-->
+
+<!--        <classes>-->
+<!--            <class name="pageObject.runner.PruifiscaPageIncognito"/>-->
+<!--        </classes>-->
+
+<!--    </test> &lt;!&ndash; Test &ndash;&gt;-->
+</suite> <!-- Suite -->

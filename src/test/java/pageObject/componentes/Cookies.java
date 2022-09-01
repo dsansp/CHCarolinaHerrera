@@ -12,6 +12,8 @@ public class Cookies extends ElementsCookies {
 @Test(groups = {"Cookies"}, enabled = true)
     void cookiesDisplayed() {
     driver.get(url);
+    driver.manage().deleteAllCookies();
+    driver.navigate().refresh();
     cookies= driver.findElement(By.cssSelector(idCookies));
     Assert.assertTrue(cookies.isDisplayed());
 
